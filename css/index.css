@@ -1,9 +1,72 @@
-p {
+p.sub-title1 {
     color: aquamarine;
 }
+p#sub-title2 {
+    color: pink;
+}
 
-h1{
+.company {
+    font-weight: bold;
+    font-size: larger;
+}
+h1 {
     color: red;
     font-size: 50pt;
     font-weight: bold;
+}
+div.box1 {
+    background-color: royalblue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+div.box2 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+div.box3 {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+div.box4{
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+  border-radius: 50px 50px 50px 0px;
+  position: absolute;
+  left: 405px;
+  top: 500px;
+  margin: 1px;
+}
+div.box5{
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+  border-radius: 50px 50px 0px 50px;
+  position: absolute;
+  left: 300px;
+  top: 500px;
+  margin: 1px;
+}
+div.box6{
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+  border-radius: 50px 0px 50px 50px;
+  position: absolute;
+  left: 300px;
+  top: 605px;
+  margin: 1px;
+}
+div.box7{
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+  border-radius: 0px 50px 50px 50px;
+  position: absolute;
+  left: 405px;
+  top: 605px;
+  margin: 1px;
 }
